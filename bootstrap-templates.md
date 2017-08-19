@@ -1,5 +1,5 @@
 # My Bootstrap Templates  
-This is a templates archive file. I shall store here all the types of Bootstrap templates that I create.  
+This is a templates archive file. I shall store here all the types of Bootstrap templates that I create. I shall also update these templates as I learn new skills like jQuery/Javascript to add more functionality.
 ## Here's The Boilerplate Code For Bootstrap V3
 ```
 <!DOCTYPE html>
