@@ -1,34 +1,97 @@
+# My Bootstrap Templates  
+This is a templates archive file. I shall store here all the types of Bootstrap templates that I create. I shall also update these templates as I learn new skills like jQuery/Javascript to add more functionality.
+## Here's The Boilerplate Code For Bootstrap V3
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Deb Banerjee</title>	
+    <title>Bootstrap Boilerplate code</title>	
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!--Custom styles-->
-    <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
+    <!--
+
+
+    Write My Code Here
+
+
+
+
+    -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+```
+## Code template for Sidebar-Content pages
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Boilerplate code</title> 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="wrapper">
+<!--Sidebar -->
+      <nav id="sidebar">
+      <!--Sidebar header-->
+        <div class="sidebar-header">
+          <img src="//via.placeholder.com/100x100" class="img-circle img-responsive" alt="">
+          <h1>Project: <!--Print the PHP Variable for project name --></h1>
+        </div>
+      <!--Sidebar lists -->
+        <ul>
+          <li></li>
+        </ul>
+      </nav>
+<!-- Page content-->
+      <div class="content">
+      </div>
+    </div>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+```
+## Code template for Portfolio style homepage
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deb Banerjee</title> 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   </head>
   <body>
 <!--The Hero section with the Jumbotron -->
-<<<<<<< HEAD
-    <div class="jumbotron" style="border: 1px solid red;">
-      <nav class="" style="border: 1px solid #000; margin: -40px 10px 40px 10px">
-          <ul class="list-unstyled list-inline">
-            <li><img src="//via.placeholder.com/350x100" alt="Marbias Money Projects Logo" class="img-responsive"></li>
-            <li class="pull-right"><a href="About.html" class=""><p>About</p></a></li>
-          </ul>
-=======
     <div class="" style="border: 1px solid red;">
       <nav style="border: 1px solid red; padding: 10px 30px 10px 30px;">
         <ul class="list-unstyled list-inline">
           <li class=""><img src="//via.placeholder.com/250x50"></li>
           <li class="pull-right" style="font-size: 20px;"><a href="#">About</a></li>
         </ul>
->>>>>>> 74062369ad2a06dacef4f494d619de8cbdd8cfc8
       </nav>
 <!--A center aligned box with an Avatar and 4 social icons in the next line -->
       <div class="col-md-4 social-block" style="border: 1px solid red; float: none; margin: 0 auto;">
@@ -45,45 +108,10 @@
     </div>
 <!--This is the start of the project grid-->
     <div class="row" style="border: 1px solid green;">
-<<<<<<< HEAD
-      <div class="row project-grid" style="border: 1px solid red; text-align: center;">
-        <div class="col-md-4">
-          <img src="//via.placeholder.com/300x200" class="img-responsive img-thumbnail" alt="Project1" style="margin: 0 auto;">
-          <p class="text-center">This is my project 1</p>
-        </div>
-        <div class="col-md-4">
-          <img src="//via.placeholder.com/300x200" class="img-responsive img-thumbnail" alt="Project2">
-          <p class="text-center">This is my project 1</p>
-        </div>
-        <div class="col-md-4">
-          <img src="//via.placeholder.com/300x200" class="img-responsive img-thumbnail" alt="Project3">
-          <p class="text-center">This is my project 1</p>
-        </div>
-      </div>
-      <div class="row project-grid" style="border: 1px solid red; text-align: center;">
-        <div class="col-md-4">
-          <img src="//via.placeholder.com/300x200" class="img-responsive img-thumbnail" alt="Project1" style="margin: 0 auto;">
-          <p class="text-center">This is my project 1</p>
-        </div>
-        <div class="col-md-4">
-          <img src="//via.placeholder.com/300x200" class="img-responsive img-thumbnail" alt="Project2">
-          <p class="text-center">This is my project 1</p>
-        </div>
-        <div class="col-md-4">
-          <img src="//via.placeholder.com/300x200" class="img-responsive img-thumbnail" alt="Project3">
-          <p class="text-center">This is my project 1</p>
-        </div>
-      </div>
-      <div class="row project-grid" style="border: 1px solid red; text-align: center;">
-        <div class="col-md-4">
-          <img src="//via.placeholder.com/300x200" class="img-responsive img-thumbnail" alt="Project1" style="margin: 0 auto;">
-          <p class="text-center">This is my project 1</p>
-=======
       <div class="row project-grid" style="border: 1px solid red;">
         <div class="col-md-4 text-center">
           <img src="//via.placeholder.com/300x150" class="img-responsive img-thumbnail" alt="Project1" style="float: none; margin: 0 auto;">
           <p>This is my project 1</p>
->>>>>>> 74062369ad2a06dacef4f494d619de8cbdd8cfc8
         </div>
         <div class="col-md-4 text-center">
           <img src="//via.placeholder.com/300x150" class="img-responsive img-thumbnail" alt="Project2" style="float: none; margin: 0 auto;">
@@ -132,3 +160,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
+```
