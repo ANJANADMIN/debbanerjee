@@ -12,6 +12,9 @@ html {
 body {
 	width: 70%;
 	margin: 0 auto;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.25em;
+
 }
 /* Styles applicable to the navigation menu */
 nav {
@@ -38,6 +41,12 @@ header {
 
 }
 
+div#content {
+	width: 50%;
+	border: 1px solid blue;
+	background-color: cyan;
+}
+
 article {
 
 }
@@ -59,7 +68,7 @@ footer {
 /* Typography styles */
 
 h1, h2, h3, h4, h5, h6 {
-
+	font-family: 'Oswald', sans-serif;
 }
 
 p {
