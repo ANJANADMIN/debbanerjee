@@ -14,7 +14,7 @@ body {
 	margin: 0 auto;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.25em;
-
+	line-height: 1.5em;
 }
 /* Styles applicable to the navigation menu */
 nav {
