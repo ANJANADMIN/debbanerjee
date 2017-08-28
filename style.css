@@ -1,0 +1,71 @@
+/*------------
+ Setting the default box-sizing to border-box for the entire document. Source guide:https://css-tricks.com/box-sizing/
+-----------*/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/* Genaral styles applicable to the whole body */
+body {
+	width: 70%;
+	margin: 0 auto;
+}
+/* Styles applicable to the navigation menu */
+nav {
+
+}
+
+nav ul {
+
+}
+
+nav ul>li {
+
+}
+/* Styles applicable to the main area*/
+main {
+
+}
+
+section {
+
+}
+
+header {
+
+}
+
+article {
+
+}
+
+details {
+
+}
+
+details>summary {
+
+}
+
+/* Genaral styles applicable to the footer area */
+
+footer {
+
+}
+
+/* Typography styles */
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+p {
+
+}
+
+a, a:hover, a:visited {
+
+}
