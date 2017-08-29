@@ -43,6 +43,12 @@ section {
 header {
 
 }
+
+section#heading {
+	background-size: cover;
+	background-image: url('header-background.jpg');
+	text-align: center;
+}
 /* Styles for the Contents navigation menu*/
 div#content {
 	/* The content div is given 50% with of the header container. 
