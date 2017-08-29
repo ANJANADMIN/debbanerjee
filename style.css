@@ -10,13 +10,12 @@ html {
 }
 /* Genaral styles applicable to the whole body */
 body {
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
+	/*Set the default font properties for all the text element here. Then customize them later in respective element*/ 
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.25em;
-	line-height: 1.5em;
 }
-/* Styles applicable to the navigation menu */
+/* Styles applicable to the Main navigation menu */
 nav {
 
 }
@@ -40,9 +39,13 @@ section {
 header {
 
 }
-
+/* Styles for the Contents navigation menu*/
 div#content {
+	/* The content div is given 50% with of the header container. 
+	But for smaller screens the minimum width is set to 200px to avoid text overflow problem */ 
 	width: 50%;
+	min-width: 200px;
+	text-overflow: hidden;
 	border: 1px solid blue;
 	background-color: cyan;
 }
@@ -69,12 +72,30 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.2em;
 }
 
 p {
-
+	font-size: 1.25em;
+	line-height: 1.5em;
 }
 
+p#target-date {
+	font-weight: bold;
+}
 a, a:hover, a:visited {
 
 }
