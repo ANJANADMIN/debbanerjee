@@ -5,14 +5,14 @@
 	<title>Project HTML,CSS and Bootstrap</title>
 	<!--Add Google Serif and Sans Serif fonts with respective weights -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">  
-	<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!--Add link to local Custom style sheet-->
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 <!-- HTML 5 semantic tags used. Source guide : https://www.w3schools.com/html/html5_semantic_elements.asp -->
-	<nav>
+	<nav class="in-post-nav">
 		<ul>
 			<li><a href="#introduction">Introduction</a></li>
 			<li><a href="#main-content">Project discussion</a></li>
@@ -22,13 +22,15 @@
 	<main>
 		<section>
 			<header id="introduction">
-				<h1>
-					Project 1: HTML, CSS and Bootstrap Framework
-				</h1>
-				<p id="target-date">
-					Target date: 30th September'2017
-				</p>
-				<div id="content-nav">
+				<section id="heading">	
+					<h1>
+						Project 1: HTML, CSS and Bootstrap Framework
+					</h1>
+					<p id="target-date">
+						Target date: 30th September'2017
+					</p>
+				</section>
+				<section id="content-nav">
 					<ul>
 						<li>Strategy 1 
 							<ol>
@@ -52,7 +54,7 @@
 							</ol>
 						</li>
 					</ul>
-				</div>
+				</section>
 			</header>
 			<article id="main-content">
 				<p>By the end of this project I want to be able to use HTML5, CSS3 and Bootstrap to make any webpage or app layout that I want.</p>
@@ -66,7 +68,12 @@
 					<li>
 						<h3>Using Google fonts on my webpage</h3>
 						<p>To use any Google font on a webpage, visit the <a href="https://fonts.google.com/" target="_blank">Google fonts website</a>. Select the type of font (serif, sans-serif etc.)you need from the Category menu on the right hand side and then sort them by popularity.</p>
-						<img src="google-fonts.jpg" width="850px" alt="Google fonts website">
+						<div style="border: 1px solid red;"><img src="Google-fonts.jpg" width="850px" alt="Google fonts website"></div>
+						<p>Then, select the font that you want from the list and adjust the thickness, spacing etc. using the buttons. When you're done, click on the small + button, copy the <code>link</code> markup and paste it within the <code>head</code> tag.</p>
+					</li>
+					<li>
+						<h3>Using float and clear</h3>
+						<p>Without writing much, I'm just including the link to the best tutorial on using the CSS <code>float</code> and <code>Clear</code> properties here- <a href="https://css-tricks.com/almanac/properties/f/float/" target="_blank">CSS Tricks</a>.</p>
 					</li>
 				</ul>
 			</article>

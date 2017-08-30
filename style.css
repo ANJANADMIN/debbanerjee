@@ -17,15 +17,19 @@ body {
 }
 /* Styles applicable to the Main navigation menu */
 nav {
-
+		
 }
-
+/* The ul element is set overflow property to clear the float left of the li's under it.
+here's a great resource on floats from CSS Tricks: https://css-tricks.com/almanac/properties/f/float/----- */ 
 nav ul {
-
+	overflow: hidden;
 }
 
-nav ul>li {
-
+nav.in-post-nav ul>li {
+	display: inline-block;
+	float: left;
+	min-width: 20%;
+	text-align: center;
 }
 /* Styles applicable to the main area*/
 main {
@@ -33,14 +37,21 @@ main {
 }
 
 section {
-
+	/*clear: both;*/
 }
 
 header {
 
 }
+
+section#heading {
+	background-size: cover;
+	background-image: url('header-background.jpg');
+	text-align: center;
+	height: 400px;
+}
 /* Styles for the Contents navigation menu*/
-div#content-nav {
+section#content-nav {
 	/* The content div is given 50% with of the header container. 
 	But for smaller screens the minimum width is set to 200px to avoid text overflow problem */ 
 	width: 50%;
