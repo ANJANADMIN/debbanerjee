@@ -40,7 +40,7 @@ header {
 
 }
 /* Styles for the Contents navigation menu*/
-div#content {
+div#content-nav {
 	/* The content div is given 50% with of the header container. 
 	But for smaller screens the minimum width is set to 200px to avoid text overflow problem */ 
 	width: 50%;
@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2em;
+	background-image: ;
 }
 
 h2 {
